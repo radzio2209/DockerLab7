@@ -47,7 +47,7 @@ jobs:
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
           platforms: linux/arm/v7,linux/arm64/v8,linux/amd64 
           context: ./
-          file: .
+          file: ./dockerfile.v1
           push: true
           tags: |
             radzio2209/lab7:githubaction
